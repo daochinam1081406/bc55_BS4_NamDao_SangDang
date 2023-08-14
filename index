@@ -60,6 +60,22 @@
         </nav>
       </div>
     </header>
+    <section class="content py-5">
+      <div class="container">
+        <div class="row">
+          <div class="content__left">
+            <h1>We Execute Our Ideas <br/>From Start to Finish</h1>
+            <p>Building a beautiful interactive business for <br/> startups and innovative companies.</p>
+            <div class="button py-3">
+              <button type="button" class="btn btn-outline-danger">GET STARTED</button>
+            </div>
+          </div>
+          <div class="content__right">
+            <img src="./images/main.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--2 Hero Header -->
     <!-- end Hero Header -->

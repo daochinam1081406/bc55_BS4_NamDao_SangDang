@@ -68,3 +68,29 @@ header .nav-item button:hover{
     color: white;
     background-color: #dc4f72;
 }
+/* content  */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .content__left{
+    left: 50%;
+}
+.content__right{
+    width: 50%;
+}
+.content__right img{
+    width: 100%;
+}
+.content__left h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.content__left p{
+    color: gray;
+    font-weight: 400;
+}
+.content__left .button button{
+    padding: 15px 35px;
+}
