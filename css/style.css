@@ -1,5 +1,4 @@
 
-
 /* header  */
 header .navbar-nav{
     display: flex;
@@ -93,4 +92,218 @@ header .nav-item button:hover{
 }
 .content__left .button button{
     padding: 15px 35px;
+}
+/* faq */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+h6, .h6 {
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+headsection {
+    max-width: 750px;
+    margin: 0 auto; }
+  
+  .headsection p {
+    max-width: 750px;
+    margin: 0 auto; }
+  
+  .headsection h3 {
+    color: var(--title-color);
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700; }
+  
+  .headsection h2 {
+    color: var(--title-color);
+    font-size: 46px;
+    line-height: 55px;
+    font-weight: 800; }
+  
+  .headsection.white h3 {
+    color: #fff; }
+  
+  .headsection.white h2 {
+    color: #fff; }
+  
+  .headsection p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px; }
+
+    .mt-5, .my-5 {
+        margin-top: 3rem !important;
+    }
+ 
+
+  @media (max-width: 800px) {
+    .headsection h3 {
+      font-size: 40px;
+      line-height: 50px; }
+    .headsection h2 {
+      font-size: 40px;
+      line-height: 50px; } }
+  
+  @media (max-width: 667px) {
+    .headsection h3 {
+      font-size: 32px;
+      line-height: 42px; }
+    .headsection h2 {
+      font-size: 36px;
+      line-height: 42px; } }
+  
+
+
+.faqsection {
+    background-color: var(--light-bg-color); }
+.faqsection .faq-image {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px; }
+.faqsection .w3l-faq .transition,
+.faqsection .w3l-faq p,
+.faqsection .w3l-faq ul li i:before,
+.faqsection .w3l-faq ul li i:after {
+    transition: all 0.25s ease-in-out; }
+.faqsection .w3l-faq .flipIn,
+.faqsection .w3l-faq h1,
+.faqsection .w3l-faq ul li {
+    -webkit-animation: flipdown 0.5s ease both;
+    animation: flipdown 0.5s ease both; }
+.faqsection .w3l-faq .no-select,
+.faqsection .w3l-faq h2 {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+.faqsection .w3l-faq h2 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: normal;
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    color: var(--title-color); }
+.faqsection .w3l-faq p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24.5px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    z-index: 2; }
+.faqsection .w3l-faq ul {
+    list-style: none;
+    padding: 0;
+    max-width: 750px;
+    margin: 0 auto; }
+.faqsection .w3l-faq ul li {
+    position: relative;
+    padding: 25px 50px 25px 20px;
+    border: 1px solid var(--border-color);
+    margin: 0 0 15px 0;
+    border-radius: var(--card-curve);
+    background: var(--bg-color); }
+.faqsection .w3l-faq ul li:nth-of-type(1) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+.faqsection .w3l-faq ul li:nth-of-type(2) {
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s; }
+.faqsection .w3l-faq ul li:nth-of-type(3) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+.faqsection .w3l-faq ul li:nth-of-type(4) {
+    -webkit-animation-delay: 1.25s;
+    animation-delay: 1.25s; }
+.faqsection .w3l-faq ul li:nth-of-type(5) {
+    -webkit-animation-delay: 1.50s;
+    animation-delay: 1.50s; }
+.faqsection .w3l-faq ul li:nth-of-type(6) {
+    -webkit-animation-delay: 1.75s;
+    animation-delay: 1.75s; }
+.faqsection .w3l-faq ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 25px;
+    top: 16px; }
+.faqsection .w3l-faq ul li i:before,
+.faqsection .w3l-faq ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: var(--title-color);
+    width: 3px;
+    height: 9px; }
+.faqsection .w3l-faq ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg); }
+.faqsection .w3l-faq ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg); }
+.faqsection .w3l-faq ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    }
+.faqsection .w3l-faq ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%); }
+.faqsection .w3l-faq ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg); }
+.faqsection .w3l-faq ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg); }
+@media screen and (max-width: 480px) {
+    .faqsection .w3l-faq h2 {
+    font-size: 18px;
+    line-height: 30px; } }
+.subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #dc4f72;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
