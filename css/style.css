@@ -1,0 +1,70 @@
+
+
+/* header  */
+header .navbar-nav{
+    display: flex;
+    align-items: center;
+}
+header .navbar-nav .nav-item .nav-link{
+    color: black;
+    transition: all 0.5s;
+}
+header .navbar-nav .nav-item .nav-link:hover{
+    color: #dc4f72;
+}
+header .navbar-nav .nav-item::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #dc4f72;
+    width: 0;
+    height: 2px;
+    transition: all 0.5s;
+}
+header .navbar-nav .nav-item.active::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #dc4f72;
+    width: 60%;
+    height: 2px;
+    transition: all 0.5s;
+}
+header .navbar-nav .nav-item:hover::after{
+    width: 60%;
+}
+header .navbar-nav .nav-item.off:hover::after{
+    width: 0;
+}
+header .nav-item {
+    margin: 0 5px;
+}
+header .nav-item span{
+    font-size: 12px;
+}
+header .nav-item .seach i{
+    color: rgba(0, 0, 0, 0.618);
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 9px;
+    font-size: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.124);
+    transition: all 0.5s;
+}
+header .nav-item .seach i:hover{
+    color: black;
+    border: 1px solid gray;
+}
+header .nav-item .moon i{
+  font-size: 20px;
+}
+header .nav-item button{
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+header .nav-item button:hover{
+    color: white;
+    background-color: #dc4f72;
+}
