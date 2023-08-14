@@ -59,8 +59,11 @@
           </div>
         </nav>
       </div>
-    </header>
-    <section class="content py-5">
+    </header>   <!--2 Hero Header -->
+                <!-- end Hero Header -->
+   
+
+<section class="content py-5">
       <div class="container">
         <div class="row">
           <div class="content__left">
@@ -77,15 +80,119 @@
       </div>
     </section>
 
-    <!--2 Hero Header -->
-    <!-- end Hero Header -->
-
-
     <!--3 Why choose us -->
-    <!-- end Why choose us -->
+<section class="whychoose py-5">
+    <div class="container">
+      <div class="title text-center">
+        <p class="active">WHY CHOOSE US</p>
+        <h2>Tools for business startup to <br /> professional</h2>
+        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+          <br />dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+      </div>
+      <div class="row text-center py-5">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/s1.png" alt=""
+                class="img-fluid">
+              <h4 class="card-title">Interactive</h4>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora rerum
+                perspiciatis? </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/s2.png" alt=""
+                class="img-fluid">
+              <h4 class="card-title">Interactive</h4>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora rerum
+                perspiciatis? </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <img src="https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/s3.png" alt=""
+                class="img-fluid">
+              <h4 class="card-title">Interactive</h4>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempora rerum
+                perspiciatis? </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- end Why choose us -->
+  
+  <!--4 about section -->
+  <section class="about"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about__left">
+            <p class="active">ABOUT OUR COMPANY</p>
+            <h3>The Best Choice For Your Successful Business!</h3>
+            <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum
+              quam nihil totam
+              reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam
+              esse nesciunt ea fuga facere voluptatem.</p>
+            <div class="button py-3">
+              <button type="button" class="btn btn-outline-danger">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="about__right">
+            <img src="https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/about.jpg"
+              class="img-fluid shadow img-curve" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- end about section -->
+  <section class="counter py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Happy Customers</h4>
+              <p class="card-text number">10458</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Winning Awards</h4>
+              <p class="card-text number">890</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Completed Projects</h4>
+              <p class="card-text active number">5345</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
 
-    <!--4 about section -->
-    <!-- end about section -->
+
+    
+
+    
 
     <!--5 stats section -->
     <!-- end Stats section -->
@@ -126,6 +233,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- Jquery cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" refserrerpolicy="no-referrer"></script>
+
+    <!-- count up  -->
+    <script src="./countUp/jquery.countup.min.js"></script>
+    <script>
+      $('.number').countUp();
+    </script>
 </body>
 
 </html>
