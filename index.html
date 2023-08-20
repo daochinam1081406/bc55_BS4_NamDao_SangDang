@@ -54,25 +54,25 @@
         class="bs-example bs-example-tabs rightsidebar-tab-notification"
         data-example-id="togglable-tabs"
       >
-        <div id="w3lDemoBar" class="w3l-demo-bar">
+        <div id="capstDemoBar" class="capst-demo-bar">
           <div class="demo-btns">
             <a href="#">
-              <span class="w3l-icon -back">
+              <span class="capst-icon -back">
                 <span class="fa fa-arrow-left"></span>
               </span>
-              <span class="w3l-text">Back</span>
+              <span class="capst-text">Back</span>
             </a>
             <a href="#">
-              <span class="w3l-icon -download">
+              <span class="capst-icon -download">
                 <span class="fa fa-download"></span>
               </span>
-              <span class="w3l-text">Download</span>
+              <span class="capst-text">Download</span>
             </a>
             <a href="#" class="no-margin-bottom-mobile">
-              <span class="w3l-icon -buy">
+              <span class="capst-icon -buy">
                 <span class="fa fa-shopping-cart"></span>
               </span>
-              <span class="w3l-text">Buy</span>
+              <span class="capst-text">Buy</span>
             </a>
           </div>
         </div>
@@ -341,26 +341,33 @@
             unde, explicabo repudiandae vel aperiam.
           </p>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" style="padding-bottom: 3rem">
           <div class="col-lg-10 mx-auto">
             <!-- Nav pills -->
-            <ul class="nav nav-pills">
+
+            <ul class="nav nav-pills flex-column">
               <li class="nav-item">
                 <a
-                  class="nav-link linkproduct active"
+                  class="nav1 nav-link linkproduct active"
                   data-toggle="pill"
                   href="#Pj1"
-                  >Project one</a
+                  >Project One</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link linkproduct" data-toggle="pill" href="#Pj2"
-                  >Project two</a
+                <a
+                  class="nav2 nav-link linkproduct"
+                  data-toggle="pill"
+                  href="#Pj2"
+                  >Project Two</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link linkproduct" data-toggle="pill" href="#Pj3"
-                  >Project three</a
+                <a
+                  class="nav3 nav-link linkproduct"
+                  data-toggle="pill"
+                  href="#Pj3"
+                  >Project Three</a
                 >
               </li>
             </ul>
@@ -370,8 +377,10 @@
               <div class="tab-pane container active" id="Pj1">
                 <div class="row">
                   <div class="col-md-6">
-                    <h3>Why a visual identity system is more memorable</h3>
-                    <p>
+                    <h3 class="h3pj">
+                      Why a visual identity system is more memorable
+                    </h3>
+                    <p class="ppj">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Repudiandae non facilis similique eligendi placeat fugiat
                       nemo asperiores consectetur harum quisquam rerum odio
@@ -404,8 +413,10 @@
                     />
                   </div>
                   <div class="col-md-6 mt-md-0 mt-5">
-                    <h3>Make website that looks Lorem, ipsum dolor.</h3>
-                    <p>
+                    <h3 class="h3pj2">
+                      Make website that looks Lorem, ipsum dolor.
+                    </h3>
+                    <p class="ppj2">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Fugit, omnis incidunt, iusto explicabo rerum iure dolorum,
                       minima molestiae fuga ratione architecto hic sapiente
@@ -423,8 +434,10 @@
               <div class="tab-pane container fade" id="Pj3">
                 <div class="row">
                   <div class="col-md-6">
-                    <h3>Why a visual identity system is more memorable</h3>
-                    <p>
+                    <h3 class="h3pj3">
+                      Why a visual identity system is more memorable
+                    </h3>
+                    <p class="ppj3">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Quo vero ab hic tenetur! Error, non doloribus quam fuga
                       dolor dolore? Velit, itaque harum. Aperiam ab commodi
@@ -447,80 +460,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- <div id="parentHorizontalTab">
-            <ul class="resp-tabs-list hor_1">
-              <li class="nav-item">
-             
-                <a class="nav-link active" data-toggle="pill" href="#project1">Project one</a>
-                </a>
-              </li>
-              <li class="nav-item">
-               
-                <a class="nav-link " data-toggle="pill" href="#project2">Project two</a>
-              </li>
-                
-              <li class="nav-item">
-            
-                <a class="nav-link active" data-toggle="pill" href="#project3">Project three</a>
-              </li>
-              
-              <div class="clear"></div>
-            </ul>
-            <div class="resp-tabs-container hor_1 tab_content">
-              <div class="products-content tab-pane container active" id="project1">
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3>
-                      Why a visual identity system is more memorable </h3>
-                    <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae non facilis similique
-                      eligendi placeat fugiat nemo asperiores consectetur harum quisquam rerum odio repellendus modi,
-                      consequatur tempora ratione quam, libero officia?</p>
-                    <a href="#url" class="btn btn-outline-primary theme-button mt-3">
-                      Know more</a>
-                  </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <img src="./images/b4.jpg" class="img-fluid img-curve" alt="project image">
-                  </div>
-                </div>
-              </div>
-               <div class="products-content tab-pane container fade" id="project2">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="./images/b5.jpg" class="img-fluid img-curve" alt="project image">
-                  </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <h3>
-                      Make website that looks Lorem, ipsum dolor. </h3>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, omnis incidunt, iusto explicabo
-                      rerum iure dolorum, minima molestiae fuga ratione architecto hic sapiente repellat libero aperiam
-                      dolorem consequatur quae deleniti!</p>
-                    <a href="#url" class="btn btn-outline-primary theme-button mt-3">
-                      Know more</a>
-                  </div>
-                </div>
-              </div> 
-              <div class="products-content tab-pane container fade" id="project3">
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3>
-                      Why a visual identity system is more memorable </h3>
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo vero ab hic tenetur! Error, non
-                      doloribus quam fuga dolor dolore? Velit, itaque harum. Aperiam ab commodi voluptatum at. Impedit,
-                      deleniti.</p>
-                    <a href="#url" class="btn btn-outline-primary theme-button mt-3">
-                      Know more</a>
-                  </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <img src="./images/b6.jpg" class="img-fluid img-curve" alt="project image">
-                  </div>
-                </div>
-              </div> 
-            </div>
-          </div> -->
           </div>
         </div>
       </div>
@@ -669,8 +608,11 @@
     <!-- end Testimonials -->
 
     <!--10 page CTA -->
-    <section class="w3l-index6 py-5">
-      <div class="container py-md-3 text-center PageCTA">
+    <section class="capst-index6 py-5" id="casptone-cta">
+      <div
+        class="container py-md-3 text-center PageCTA"
+        style="padding-bottom: 3rem"
+      >
         <div class="headsection text-center mx-auto">
           <h3>
             Ready to build your own brand <br />
@@ -697,9 +639,9 @@
 
     <!--11 footer -->
     <footer>
-      <section class="w3l-footer">
-        <div class="w3l-footer-16-main py-5">
-          <div class="container MasterFooter">
+      <section class="capst-footer">
+        <div class="capst-footer-16-main py-5">
+          <div class="container MasterFooter" style="padding-top: 3rem">
             <div class="row">
               <div class="col-lg-6 column">
                 <div class="row">
@@ -773,7 +715,7 @@
               <div class="columns text-lg-left text-center">
                 <p class="CopyRights">
                   &copy; 2023 Masterwork. All Rights Reserved | WordPress Theme
-                  by <a href="#">W3Layouts. </a>
+                  by <a href="#">capstayouts. </a>
                 </p>
               </div>
 
@@ -877,21 +819,37 @@
             // Kích thước màn hình nhỏ hơn 768px
             $slider.slick("slickSetOption", "slidesToShow", 1);
             $slider.slick("slickSetOption", "slidesToScroll", 1);
+            $slider.slick({
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 3,
+              arrows: false,
+              dots: true,
+              autoplay: false,
+              //   appendDots: ".custom-pagination",
+            });
           } else {
             $slider.slick("slickSetOption", "slidesToShow", 2);
             $slider.slick("slickSetOption", "slidesToScroll", 2);
+            $slider.slick({
+              infinite: true,
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              arrows: false,
+              dots: true,
+              autoplay: false,
+              //   appendDots: ".custom-pagination",
+            });
           }
         }
-
-        // Khởi tạo trình trượt
         $slider.slick({
           infinite: true,
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           arrows: false,
-          dots: false,
+          dots: true,
           autoplay: false,
-          appendDots: ".custom-pagination",
+          //   appendDots: ".custom-pagination",
         });
 
         // Gọi hàm cập nhật số lượng hiển thị mục khi kích thước cửa sổ thay đổi
