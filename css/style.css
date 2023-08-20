@@ -978,6 +978,7 @@ span.w3l-icon.-back span.fa {
     max-width: 100%;
   }
 }
+
 .testimonialsblock .slider-info {
   max-width: 95%;
   margin: 0 auto;
@@ -1399,6 +1400,28 @@ pb-5,
 .pt-5,
 .py-5 {
   padding-top: 91px !important;
+}
+/* sua lai nav */
+.linkproduct.active {
+  background-color: white;
+}
+
+ul.nav.nav-pills {
+  display: grid;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem 0;
+}
+.tab-pane.container.fade.active {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* namdao END */
