@@ -58,6 +58,19 @@ function easeOutCubic(t) {
 }
 
 var header = document.querySelector('nav.navbar.navbar-expand-lg');
+var PageCTA = document.getElementById('products');
+var casptonecta=document.getElementById('casptone-cta');
+var h3pj=document.querySelector('.h3pj');
+var ppj=document.querySelector('.ppj')
+var h3pj2=document.querySelector('.h3pj2');
+var ppj2=document.querySelector('.ppj2')
+var h3pj3=document.querySelector('.h3pj3');
+var ppj3=document.querySelector('.ppj3');
+var themenav=document.querySelector('.nav-pills .nav-link.active');
+var nav1=document.querySelector('.nav1');
+var nav2=document.querySelector('.nav2');
+var nav3=document.querySelector('.nav3');
+
 //theme
 var thememode=document.getElementById("thememode");
 thememode.onclick=function(){
@@ -66,14 +79,42 @@ thememode.onclick=function(){
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
     thememode.innerText="light_mode";
-    header.style.backgroundColor="black";
+    header.style.backgroundColor="#191c1d";
     header.style.color="white";
+    PageCTA.style.backgroundColor="#141616";
+    casptonecta.style.backgroundColor="#141616";
+    h3pj.style.color="#eee";
+    ppj.style.color="#b7b7b7"; 
+    h3pj2.style.color="#eee";
+    ppj2.style.color="#b7b7b7"; 
+    h3pj3.style.color="#eee";
+    ppj3.style.color="#b7b7b7"; 
+    themenav.style.backgroundColor="#141616";
+    nav1.style.color="#eee";
+    nav2.style.color="#eee";
+    nav3.style.color="#eee";
+
     }
     else {        document.documentElement.setAttribute('data-theme', 'light');
           localStorage.setItem('theme', 'light');
           thememode.innerText="dark_mode";
           header.style.backgroundColor="white";
-          header.style.color="black";
+          header.style.color="#191c1d";
+          PageCTA.style.backgroundColor="white";
+          casptonecta.style.backgroundColor="white";
+          h3pj.style.color="black";
+          ppj.style.color="black"; 
+          h3pj2.style.color="black";
+          ppj2.style.color="black"; 
+          h3pj3.style.color="black";
+          ppj3.style.color="black"; 
+          themenav.style.backgroundColor="white";
+          nav1.style.color="black";
+          nav2.style.color="black";
+          nav3.style.color="black";
+      
+
+         
 
     }    
 };
